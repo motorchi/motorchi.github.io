@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ body
+{
+font-size:80%;
+letter spacing: .15em;
+background-color: #efefef;
+background-image: url(logo2.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;}
+#page{
+	max-width:940px;
+	min-width:720px;
+	margin:10px auto 10px atuo;
+	padding:20px;
+	border:4px double #000;
+	background-color: #FFFFFF;}
+	
+	#nav, #links {
+		
+		padding: 25px;
+		margin:30px;
+		text-align: center;
+		font-family: Facit;}
+ul {
+    list-style-type: none;
+	 background-color: #dddddd;
+	  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+	li {
+		display: inline;
+		margin: 3px;
+		font-family: Facit;
+		font-size:18px;
+		
+	}
+		p{
+			text-align: center;
+			width: auto;
+			margin: 50px;
+			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+			font-size:1em;
+			color:#0E8191;}
+	
+a { 
+ 		color:#A8D5D8;
+		text-decoration:none;
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+		font-size:20px; 
+		}
+		
+		/* unvisited link */
+a:link  {
+    color: #A8D5D8;
+}
+
+/* visited link */
+a:visited {
+    color: #A8D5D8;
+}
+
+/* mouse over link */
+a:hover {
+    color: #D1CACA;
+}
+
+/* selected link */
+a:active {
+    color: #FAFAFA;
+}
+	
+
+		
+					
+		
+	
+	
